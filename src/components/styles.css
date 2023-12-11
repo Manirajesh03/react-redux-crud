@@ -1,0 +1,159 @@
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 400px;
+  min-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #160f24;
+  color: #fff;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff6c00;
+}
+
+.user-details > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.user-details > div > label {
+  margin-bottom: 10px;
+}
+
+.user-details > div:last-child {
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #26efe9;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #160f24;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.login-form > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-form > div:last-child {
+  align-items: center;
+}
+
+.login-form > div > label {
+  margin-bottom: 10px;
+}
+
+.login-heading {
+  margin-bottom: 20px;
+}
+
+.login-form > button {
+  display: block;
+  padding: 10px 20px;
+}
+
+.btn-block {
+  display: inline-block;
+  background-color: #ff6c00;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar > li {
+  list-style-type: none;
+  margin-right: 20px;
+  display: inline-block;
+  background: #160f24;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  min-height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  min-width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard > * {
+  margin-right: 20px;
+}
+
+.dashboard > ul {
+  min-width: 240px;
+}
+
+.dashboard > ul > li {
+  list-style-type: decimal;
+  margin-bottom: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container > button {
+  margin-right: 20px;
+}
